@@ -126,10 +126,11 @@ function App() {
                   onChange={(e) => setInterest(e.target.value)}
                 >
                   <option value="" disabled>Select an option</option>
+                  <option value="Meeting people based on personality">Meeting people based on personality</option>
+                  <option value="Making new friends">Making new friends</option>
                   <option value="Finding a serious relationship">Finding a serious relationship</option>
-                  <option value="Trying something different">Trying something different</option>
-                  <option value="Meeting people based on personality first">Meeting people based on personality first</option>
-                  <option value="All the above">All the above</option>
+                  <option value="Still figuring it out">Still figuring it out</option>
+                  <option value="Expanding my social circle">Expanding my social circle</option>
                 </select>
               </div>
 
